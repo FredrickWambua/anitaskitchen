@@ -29,4 +29,51 @@
     justify-content: center;
     display: flex;
     border-bottom: 1px solid grey;
+    height: 60px;
+}
+.partytime{
+    color: white;
+    background-color: #F15A29;
+    justify-content: center;
+    display: flex;
+    height: 60px;
+}
+
+#breakfast{
+    background-image: url("assets/foodtop-20210423T122832Z-001/foodtop/breakfast.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    color: white;
+    justify-content: center;
+    height: 120px;
+    align-items: center;
+    opacity: 0.9;
+    width: 25%;
+
+}
+
+#lunch{
+    background-image: url("assets/foodtop-20210423T122832Z-001/foodtop/lunch.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    color: white;
+    justify-content: center;
+    height: 120px;
+    align-items: center;
+    opacity: 0.4;
+    width: 25%; 
+}
+
+#dinner{
+    background-image: url("assets/foodtop-20210423T122832Z-001/foodtop/dinner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    color: white;
+    justify-content: center;
+    height: 120px;
+    align-items: center;
+    width: 25%; 
 }
