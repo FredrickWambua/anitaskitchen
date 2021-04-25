@@ -3,3 +3,22 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 70vh;
+}
+
+#menu{
+    display: inline-block;
+    margin: 80px auto 0 80px;
+
+}
+
+#logo{
+    display: block;
+    text-align: center;
+}
+.line1, .line2, .line3{
+    height: 5px;
+    width: 50px;
+    background-color: white;
+    margin: 5px 0;
+
+}
