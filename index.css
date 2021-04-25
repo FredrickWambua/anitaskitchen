@@ -22,3 +22,11 @@
     margin: 5px 0;
 
 }
+
+.happyhr{
+    color: black;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    border-bottom: 1px solid grey;
+}
