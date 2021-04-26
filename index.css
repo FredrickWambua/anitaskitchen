@@ -107,6 +107,7 @@
     display: flex;
     flex-direction: row;
     float: right;
+    border: 2px solid grey;
 }
 
 .menu-list{
