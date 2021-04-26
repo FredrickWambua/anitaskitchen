@@ -1,0 +1,11 @@
+.offer{
+    width: 25%;
+}
+.session{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    height: 120px;
+    font-style: italic;
+}
