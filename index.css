@@ -98,8 +98,8 @@
     display: flex;
     flex-direction: column;
     float: left;
-    padding-right: 30px;
-    border: 1px 1px 1px 1px solid grey;
+    border: 2px solid grey;
+    margin: 5px;
 
 }
 
