@@ -30,6 +30,7 @@
     display: flex;
     border-bottom: 1px solid grey;
     height: 60px;
+    /* width: 25%; */
 }
 .partytime{
     color: white;
@@ -37,6 +38,7 @@
     justify-content: center;
     display: flex;
     height: 60px;
+    /* width: 25%; */
 }
 
 #breakfast{
@@ -76,4 +78,50 @@
     height: 120px;
     align-items: center;
     width: 25%; 
+}
+
+
+.drink {
+    float: left;
+    /* width: 50%; */
+    padding: 0;
+}
+
+.menu-list{
+    background-image: url("assets/foodsBg.jpg");
+    margin-top: 150px;
+}
+
+.collection{
+    box-sizing: content-box;
+    display: flex;
+    flex-direction:row;
+    /* background-color: white; */
+    /* margin-top: 150px; */
+    text-align: center;
+    color: #F15A29;
+}
+
+.subscribe{
+    background-image: url("assets/subscribe.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    font-size: xx-large;
+}
+
+
+
+footer{
+    background-color: #F15A29;
+    display: block;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: white;
 }
