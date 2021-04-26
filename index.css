@@ -28,7 +28,6 @@
     background-color: white;
     justify-content: center;
     display: flex;
-    /* border-bottom: 1px solid grey; */
     height: 60px;
     /* width: 25%; */
 }
@@ -80,18 +79,33 @@
     width: 25%; 
 }
 
+.examples{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    
 
-.drink {
-    float: left;
-    /* width: 50%; */
-    padding: 0;
 }
+/* .fastfoods{
+    display: flex;
+    
+} */
 
 #fastfood{
+    display: flex;
+    flex-direction: column;
     float: left;
+    padding-right: 30px;
+    border: 1px 1px 1px 1px solid grey;
+
 }
 
 #images1{
+    display: flex;
+    flex-direction: row;
     float: right;
 }
 
