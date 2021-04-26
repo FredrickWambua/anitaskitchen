@@ -87,19 +87,32 @@
     padding: 0;
 }
 
+#fastfood{
+    float: left;
+}
+
+#images1{
+    float: right;
+}
+
 .menu-list{
     background-image: url("assets/foodsBg.jpg");
     margin-top: 150px;
+}
+
+.topsect{
+    display: inline-flex;
+    color: white;
+
 }
 
 .collection{
     box-sizing: content-box;
     display: flex;
     flex-direction:row;
-    /* background-color: white; */
-    /* margin-top: 150px; */
     text-align: center;
     color: #F15A29;
+    /* background-color: white; */
 }
 
 .subscribe{
