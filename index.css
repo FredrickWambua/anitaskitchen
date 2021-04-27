@@ -127,7 +127,25 @@
 
 .topsect{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+
+}
+
+.topsect p{
+   border: 1px solid gray;
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   justify-content: center;
+   height: 20px;
+   background-color: lightgray;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+#transparent{
+    border: transparent;
+    background-color: white;
 }
 
 .yummy{
@@ -157,13 +175,12 @@
 }
 
 #reviews{
-    width: 40%;
+    width: 60%;
 
 }
 
 #about{
     width: 30%;
-    display: block;
 }
 
 .subscribe{
