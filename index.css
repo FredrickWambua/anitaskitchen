@@ -129,20 +129,24 @@ h2{
 }
 #but{
     display: flex;
-    margin-left: 145px;
+    margin-left: 230px;
     justify-content: center;
     align-items: center;
-}
-
-.examples button{
+    color: #F15A29;
     background-color: white;
     border: 1px solid #F15A29;
     height: 50px;
     width: 200px;
+    margin-top: 20px;
     text-align: center;
-    color: #F15A29;
     font-weight: 700;
+
 }
+#but a{
+    color: #F15A29;
+    text-decoration: none;
+}
+
 
 
 .collection{
@@ -206,6 +210,10 @@ h2{
 #reviews{
     width: 60%;
 
+}
+h3{
+    color: #F15A29;
+    margin-bottom: 20px;
 }
 
 #about{
