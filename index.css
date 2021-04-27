@@ -92,7 +92,9 @@
     display: flex;
     flex-direction: column;
     float: left;
-    margin-right: 30px;
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     padding: 10px;
     box-shadow: 2px 2px 2px 4px lightgray;
 }
@@ -101,9 +103,10 @@
     display: flex;
     flex-direction: row;
     float: right;
-    margin-left: 30px;
+    margin-left: 80px;
     padding: 10px;
     box-shadow: 2px 2px 2px 4px lightgray;
+
 }
 
 .examples button{
@@ -157,12 +160,13 @@
 .yummy{
     /* padding-top: 40px; */
     display: flex;
-    width: 70%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     justify-content: space-around;
     color: #F15A29;
+    align-content: space-around;
 }
 
 
