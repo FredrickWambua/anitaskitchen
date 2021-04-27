@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 .container{
     background-image: url("assets/landing.jpg");
     background-size: cover;
@@ -46,6 +50,7 @@
     background-repeat: no-repeat;
     display: flex;
     color: white;
+    font-style: italic;
     justify-content: center;
     height: 120px;
     align-items: center;
@@ -60,6 +65,8 @@
     background-repeat: no-repeat;
     display: flex;
     color: white;
+    font-style: italic;
+    font-style: italic;
     justify-content: center;
     height: 120px;
     align-items: center;
@@ -80,7 +87,8 @@
 }
 
 .examples{
-    width: 70%;
+    margin-top: 30px;
+    width: 76%;
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
@@ -108,6 +116,15 @@
     box-shadow: 2px 2px 2px 4px lightgray;
 
 }
+.right-align{
+    text-align: right;
+}
+#but{
+    display: flex;
+    margin-left: 145px;
+    justify-content: center;
+    align-items: center;
+}
 
 .examples button{
     background-color: white;
@@ -119,25 +136,17 @@
     font-weight: 700;
 }
 
-.menu-list{
-    background-image: url("assets/foodsBg.jpg");
-    margin-top: 150px;
-    height: 70vh;
-}
-
 
 .collection{
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
     background-color: white;
+    height: 50vh;
+    width: 70%;
+
 
 }
 
 .topsect{
     display: flex;
-    /* justify-content: space-around; */
-
 }
 
 .topsect p{
@@ -146,7 +155,6 @@
    flex-direction: row;
    width: 100%;
    justify-content: center;
-   height: 20px;
    background-color: lightgray;
    padding-top: 10px;
    padding-bottom: 10px;
@@ -160,13 +168,14 @@
 .yummy{
     /* padding-top: 40px; */
     display: flex;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
-    justify-content: space-around;
     color: #F15A29;
-    align-content: space-around;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+.yummy figure{
+    padding: 0 10px;
 }
 
 

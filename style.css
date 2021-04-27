@@ -7,5 +7,16 @@
     box-sizing: border-box;
     align-items: center;
     height: 120px;
-    font-style: italic;
+}
+
+.menu-list{
+    background-image: url("assets/foodsBg.jpg");
+    background-size: cover;
+    background-position: center 100%;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
 }
