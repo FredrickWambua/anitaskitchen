@@ -206,9 +206,19 @@
     color: white;
     font-size: 20px;
     text-align: left;
+    border: transparent;
 }
 
-
+#button2{
+    background-color: #F15A29;
+    height: 30px;
+    width: 10%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border: transparent;
+    
+}
 
 footer{
     background-color: #F15A29;
