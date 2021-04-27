@@ -110,6 +110,16 @@
     border: 2px solid grey;
 }
 
+.examples button{
+    background-color: white;
+    border: 1px solid #F15A29;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    color: #F15A29;
+    font-weight: 700;
+}
+
 .menu-list{
     background-image: url("assets/foodsBg.jpg");
     margin-top: 150px;
