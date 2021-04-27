@@ -153,6 +153,17 @@
     height: 200px;
     padding: 50px;
     text-align: center;
+    justify-content: space-around;
+}
+
+#reviews{
+    width: 40%;
+
+}
+
+#about{
+    width: 30%;
+    display: block;
 }
 
 .subscribe{
