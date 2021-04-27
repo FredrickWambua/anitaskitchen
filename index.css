@@ -117,18 +117,21 @@
 }
 
 
-/* .collection{
-    display: flex;
+.collection{
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
     background-color: white;
 
-} */
+}
+
+.topsect{
+    display: flex;
+    justify-content: space-around;
+}
 
 .yummy{
-    padding-top: 40px;
+    /* padding-top: 40px; */
     display: flex;
     width: 70%;
     margin-left: auto;
@@ -136,6 +139,9 @@
     text-align: center;
     justify-content: space-around;
     color: #F15A29;
+}
+.yummy >img{
+    justify-content: space-around;
 }
 
 /* .card{
