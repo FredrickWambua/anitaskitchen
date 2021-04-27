@@ -159,6 +159,7 @@
     color: #F15A29;
 }
 
+
 .card{
     display: flex;
     flex-direction: row;
@@ -197,19 +198,14 @@
     color: white;
 }
 
-.subscribe .button1{
-   background-color: grey;
-   opacity: 0.4;
-   color: white;
-}
-
-.subscribe .button2{
-    background-color:#F15A29 ;
-}
-
-button {
-    font-size: large;
-    padding-right: 100px;
+#button1{
+    background-color: lightgray;
+    height: 30px;
+    width: 20%;
+    opacity: 0.3;
+    color: white;
+    font-size: 20px;
+    text-align: left;
 }
 
 
