@@ -127,12 +127,16 @@
 
 } */
 
-/* .yummy{
-    margin-top: 100px;
+.yummy{
+    padding-top: 40px;
     display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     justify-content: space-around;
-} */
+    color: #F15A29;
+}
 
 /* .card{
     display: grid;
