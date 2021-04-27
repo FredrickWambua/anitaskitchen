@@ -86,13 +86,7 @@
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    
-
 }
-/* .fastfoods{
-    display: flex;
-    
-} */
 
 #fastfood{
     display: flex;
@@ -103,12 +97,12 @@
 
 }
 
-#images1{
+/* #images1{
     display: flex;
     flex-direction: row;
     float: right;
-    border: 2px solid grey;
-}
+    box-shadow: 2px 2px 2px 4px lightgray;
+} */
 
 .examples button{
     background-color: white;
@@ -173,7 +167,8 @@
 .card{
     display: flex;
     flex-direction: row;
-    border: 1px solid gray;
+    box-shadow: 2px 2px 2px 4px lightgray;
+    transition: 0.3s;
     width: 70%;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -233,7 +228,6 @@
 footer{
     background-color: #F15A29;
     display: block;
-    /* justify-content: center; */
     align-items: center;
     text-align: center;
     padding-top: 30px;
