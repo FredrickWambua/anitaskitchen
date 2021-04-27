@@ -113,22 +113,39 @@
 .menu-list{
     background-image: url("assets/foodsBg.jpg");
     margin-top: 150px;
+    height: 70vh;
 }
 
-.topsect{
-    display: inline-flex;
-    color: white;
 
-}
-
-.collection{
-    box-sizing: content-box;
+/* .collection{
     display: flex;
-    flex-direction:row;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: white;
+
+} */
+
+/* .yummy{
+    margin-top: 100px;
+    display: flex;
     text-align: center;
-    color: #F15A29;
-    /* background-color: white; */
-}
+    justify-content: space-around;
+} */
+
+/* .card{
+    display: grid;
+    flex-direction: column;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px 5px gray;
+    width: 70%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+} */
 
 .subscribe{
     background-image: url("assets/subscribe.jpg");
