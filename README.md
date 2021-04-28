@@ -10,9 +10,9 @@ The page is responsive to all device widths. This is taken care of using the med
 In importing icons present in the project, fontawesome online files are linked on the head section of the html file.
 ### Contribution
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-## Licence
-This project is licenced under MIT licencing.
-
+## License
+This project is licenced under MIT licensing.
+https://github.com/FredrickWambua/anitaskitchen/blob/master/license
 ## Acknowledgement
 This project is created as an assignemnt project from https://moringaschool.com/
 
