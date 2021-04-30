@@ -146,6 +146,7 @@ h2{
     font-weight: 700;
 
 }
+
 #but a{
     color: #F15A29;
     text-decoration: none;
@@ -186,7 +187,6 @@ h2{
 }
 
 .yummy{
-    /* padding-top: 40px; */
     display: flex;
     text-align: center;
     color: #F15A29;
@@ -278,15 +278,17 @@ input::placeholder{
 footer{
     background-color: #F15A29;
     background-size: cover;
-    height: 300px;
+    height: 200px;
     display: block;
     text-align: center;
-    justify-content: center;
+    padding-top: 60px;
 }
 footer span{
     font-size: 40px;
     margin-left: 20px;
+    margin-top: 100px;
     color: white;
+
 }
 footer p{
     margin-top: 20px;
@@ -316,4 +318,8 @@ footer p{
     background-repeat: no-repeat;
     margin-right: 30px;
     color: #F15A29;
+    position: absolute;
+}
+.footer-img{
+    background-color: red  ;
 }
