@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
 }
+/* first page */
 .container{
     background-image: url("assets/landing.jpg");
     background-size: cover;
@@ -16,11 +17,6 @@
     margin: 80px auto 0 80px;
 
 }
-
-#logo{
-    display: block;
-    text-align: center;
-}
 .line1, .line2, .line3{
     height: 5px;
     width: 50px;
@@ -28,6 +24,12 @@
     margin: 5px 0;
 
 }
+
+#logo{
+    display: block;
+    text-align: center;
+}
+
 
 .happyhr{
     color: black;
@@ -88,6 +90,8 @@
     align-items: center;
     width: 25%; 
 }
+
+/* fastfoods and drinks section */
 
 .examples{
     margin-top: 30px;
@@ -153,14 +157,12 @@ h2{
     padding-left: 20px;
 }
 
-
+/* menu section */
 
 .collection{
     background-color: white;
     height: 50vh;
     width: 70%;
-
-
 }
 
 .topsect{
@@ -201,6 +203,7 @@ h2{
 }
 
 
+/* review section */
 .card{
     display: flex;
     flex-direction: row;
@@ -232,9 +235,9 @@ h3{
 #chevron-3, #chevron-4{
     color: #F15A29;
     margin: 20px;
-    align-content: center;
 }
 
+/* subscribe section */
 
 .subscribe{
     background-image: url("assets/subscribe.jpg");
@@ -271,11 +274,13 @@ input::placeholder{
     border: transparent;
 }
 
-
+/* footer section */
 footer{
     background-color: #F15A29;
-    display: flex;
-    align-items: center;
+    background-size: cover;
+    height: 300px;
+    display: block;
+    text-align: center;
     justify-content: center;
 }
 footer span{
@@ -283,7 +288,6 @@ footer span{
     margin-left: 20px;
     color: white;
 }
-
 footer p{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -295,6 +299,7 @@ footer p{
     background-repeat: no-repeat;
     margin-right: 30px;
     color: #F15A29;
+
 }
 
 #twitter{
@@ -312,4 +317,3 @@ footer p{
     margin-right: 30px;
     color: #F15A29;
 }
-
